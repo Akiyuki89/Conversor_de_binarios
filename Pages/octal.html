@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Octal</title>
+    <link rel="stylesheet" href="../css/stylePages2.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="apresentacao"> Você selecionou conversor Decimal para Octal</h1>
+        <a href="../index.html" class="voltar">Voltar</a>
+    </header>
+
+    <form>
+        <label for="value1">Valor decimal</label>
+        <input type="number" id="value" name="value">
+        <label for="value2">Valor Octal</label>
+        <input type="text" id="octalValue" name="value2" readonly>
+        <input type="button" value="Converter" id="convertButton" onclick="calculaOct()">
+    </form>
+    
+    <script src="../index.js"></script>
+</body>
+</html>

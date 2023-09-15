@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de binários</title>
+    <!--Link css-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <h1 class="apresentacao"> Bem vindos a nossa calculadora de conversão de binários</h1>
+    </header>
+
+    <div class="container">
+        <h2>Escollha uma opção</h1>
+            <form>
+                <label for="option1">Binário</label>
+                <input type="radio" id="option1" name="option" value="1">
+                <br>
+                <label for="option2">Octal</label>
+                <input type="radio" id="option2" name="option" value="2">
+                <br>
+                <label for="option3">Hexadecimal</label>
+                <input type="radio" id="option3" name="option" value="3">
+                <br>
+                <input type="button" value="Enviar" onclick="submitForm()">
+            </form>    
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
